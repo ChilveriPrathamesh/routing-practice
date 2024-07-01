@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.img {
+  width: 150px;
+}
+
+.title {
+  font-size: 24px;
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .title {
+    font-size: 38px;
+  }
+}
